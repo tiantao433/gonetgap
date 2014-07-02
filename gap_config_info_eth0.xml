@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 内网端网卡X的配置信息 -->
+<GapConfigInfo>
+	<EthIndex>0</EthIndex>
+	<!-- 源地址表 -->
+	<SrcAddrTableInfo>
+		<SrcAddrInfo>
+			<SrcAddrIndex>0</SrcAddrIndex>
+			<SrcDevName>SrcDevice01</SrcDevName>
+			<SrcIPAddr>192.168.205.111</SrcIPAddr>
+			<NetMask>255.255.255.0</NetMask>
+			<SrcMACAddr>84:2B:2B:85:F3:11</SrcMACAddr>
+			<SrcNATEnable>0</SrcNATEnable>
+			<SrcIPAddrAfterNAT></SrcIPAddrAfterNAT>
+			<GatewayTableInfoIndex></GatewayTableInfoIndex>
+		</SrcAddrInfo>
+	</SrcAddrTableInfo>
+	<!-- 目的地址表 -->
+	<DstAddrTableInfo>
+		<DstAddrInfo>
+			<DstAddrIndex>0</DstAddrIndex>
+			<DstDevName>DstDevice01</DstDevName>
+			<DstIPAddr>192.168.205.121</DstIPAddr>
+			<NetMask>255.255.255.0</NetMask>
+			<DstMACAddr>84:2B:2B:85:F3:21</DstMACAddr>
+			<DstNATEnable>0</DstNATEnable>
+			<DstIPAddrAfterNAT></DstIPAddrAfterNAT>
+			<GatewayTableInfoIndex></GatewayTableInfoIndex>
+		</DstAddrInfo>
+	</DstAddrTableInfo>
+	<!-- 网关信息表 -->
+	<GatewayTableInfo>
+		<GatewayAddrInfo>
+			<GatewayAddrIndex>0</GatewayAddrIndex>
+			<GatewayDevName>GatewayDevice01</GatewayDevName>
+			<GatewayIPAddr>192.168.205.1</GatewayIPAddr>
+			<NetMask>255.255.255.0</NetMask>
+			<GatewayMACAddr>00:25:64:d8:0b:91</GatewayMACAddr>
+			<GatewayNATEnable>0</GatewayNATEnable>
+			<GatewayIPAddrAfterNAT></GatewayIPAddrAfterNAT>
+		</GatewayAddrInfo>
+	</GatewayTableInfo>
+	<!-- 匹配规则表 -->
+	<MatchRegularTableInfo>
+		<MatchRegular>
+			<MatchRegularIndex>0</MatchRegularIndex>
+			<SrcAddrTableInfoIndex>0</SrcAddrTableInfoIndex>
+			<DstAddrTableInfoIndex>0</DstAddrTableInfoIndex>
+			<ProtocolType>0</ProtocolType>
+			<SrcPortBegin>10100</SrcPortBegin>
+			<SrcPortEnd>10100</SrcPortEnd>
+			<DstPortBegin>10200</DstPortBegin>
+			<DstPortEnd>10200</DstPortEnd>
+			<TwoWayEnable>0</TwoWayEnable>
+		</MatchRegular>
+	</MatchRegularTableInfo>
+</GapConfigInfo>

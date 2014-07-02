@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!-- 网闸用户信息 -->
+<GapUserInfo>
+	<UserInfo>
+		<UserName>manager</UserName>
+		<PasswordHash>dc76e9f0c0006e8f919e0c515c66dbba3982f785</PasswordHash>
+		<Permission>0</Permission>
+		<Comments>administrator</Comments>
+	</UserInfo>
+	<UserInfo>
+		<UserName>operator</UserName>
+		<PasswordHash>86c684f918c4a5663d7847db029a2b06b4f0fcf9</PasswordHash>
+		<Permission>1</Permission>
+		<Comments>config admin</Comments>
+	</UserInfo>
+	<UserInfo>
+		<UserName>viewer</UserName>
+		<PasswordHash>
+			71717002e3a7d14d387930b70ab8535dbc91818c
+		</PasswordHash>
+		<Permission>2</Permission>
+		<Comments>log admin</Comments>
+	</UserInfo>
+</GapUserInfo>
