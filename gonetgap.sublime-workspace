@@ -1,0 +1,252 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"P",
+				"Println	 ƒ"
+			],
+			[
+				"func",
+				"func main	func main {...} ʂ"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 173.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ip",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"",
+				"Snippet: printf …"
+			],
+			[
+				"Snippet: ",
+				"Snippet: #include <…>"
+			],
+			[
+				"Package Control: g",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/gonetgap/src/netgapxml/user.go",
+		"/D/gonetgap/src/netgapxml/rule.go",
+		"/D/gonetgap/src/gap_config_info_eth0.xml",
+		"/D/gonetgap/src/netgap/main.go",
+		"/D/xmltest.go",
+		"/D/gonetgap/rule2.go",
+		"/D/gonetgap/gap_user_info.xml",
+		"/D/gonetgap/src/main.go",
+		"/D/testgolang.xml",
+		"/D/gonetgap/src/xml/user.go",
+		"/D/gonetgap/src/xml/main.go",
+		"/D/greensoft/sublimetext2/Data/Packages/GoSublime/GoSublime.sublime-settings",
+		"/D/greensoft/sublimetext2/Data/Packages/GoSublime/9o.md",
+		"/C/Go/src/pkg/sync/mutex.go",
+		"/D/gowork/src/test/main.go",
+		"/D/greensoft/sublimetext2/Data/Packages/User/Preferences.sublime-settings",
+		"/D/greensoft/sublimetext2/Data/Packages/Default/Preferences.sublime-settings",
+		"/D/greensoft/sublimetext2/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/D/greensoft/sublimetext2/Data/Packages/Themr/Default (Windows).sublime-keymap",
+		"/D/greensoft/sublimetext2/Data/Packages/Default/Default (Windows).sublime-keymap",
+		"/D/greensoft/sublimetext2/Data/Packages/CTags/CTags.sublime-settings",
+		"/E/SerialPort.cpp",
+		"/C/Users/tao/AppData/Local/Temp/HZ$D.394.2338/HZ$D.394.2339/zentaophp/app/demo/www/index.php",
+		"/D/greensoft/sublimetext2/Data/Packages/Package Control/Package Control.sublime-settings",
+		"/D/greensoft/sublimetext2/Data/Packages/GoSublime/CHANGELOG.md",
+		"/E/SerialPort.cpp.dump"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"MySrcAddrInfoTable",
+			"\n		",
+			"string",
+			"m_szSrcDevName",
+			"uint32_t",
+			"\n	",
+			"study",
+			"ruler",
+			"Close",
+			"ReadTotalTimeoutMultiplier"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.9o://D:\\":
+	{
+		"height": 124.0
+	},
+	"output.9o://D:\\gonetgap\\src":
+	{
+		"height": 124.0
+	},
+	"output.9o://D:\\gonetgap\\src\\netgap":
+	{
+		"height": 124.0
+	},
+	"output.9o://D:\\gonetgap\\src\\netgapxml":
+	{
+		"height": 124.0
+	},
+	"output.9o://D:\\gonetgap\\src\\xml":
+	{
+		"height": 124.0
+	},
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 286.0,
+	"status_bar_visible": true
+}
