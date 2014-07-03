@@ -7,6 +7,8 @@ import (
 	"sync"
 )
 
+var NetGapAllUserInfo AllUserInfo
+
 type SingleUserInfo struct {
 	UserName       string `xml:"UserName"`
 	UserPasswdHash string `xml:"PasswordHash"`

@@ -7,6 +7,10 @@ import (
 	"sync"
 )
 
+const NetGapEthNum = 3
+
+var NetGapInnerAllEthInfo, NetGapOuterAllEthInfo [NetGapEthNum]AllRuleInfo
+
 type SingleSrcAddrInfo struct {
 	SrcAddrIndex      uint32 `xml:"SrcAddrIndex"`
 	SrcDevName        string `xml:"SrcDevName"`

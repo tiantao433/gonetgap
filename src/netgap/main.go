@@ -3,26 +3,30 @@ package main
 import (
 	"log"
 	"netgapxml"
+	"strconv"
+	"time"
 )
 
-var NetGapAllUserInfo netgapxml.AllUserInfo
-
-var NetGapInnerAllRuleInfo netgapxml.AllRuleInfo
-
 func main() {
-	var ret int
+	var ret, i int
 
-	ret = netgapxml.ReadUserInfoFromFile(&NetGapAllUserInfo, "gap_user_info.xml")
-	if ret < 0 {
-		return
+	ret = netgapxml.ReadUserInfoFromFile(&netgapxml.NetGapAllUserInfo, "gap_user_info.xml")
+	if ret >= 0 {
+		log.Println(netgapxml.NetGapAllUserInfo)
 	}
-	log.Println(NetGapAllUserInfo.UserInfo)
 
-	ret = netgapxml.ReadRuleInfoFromFile(&NetGapInnerAllRuleInfo, "gap_config_info_eth0.xml")
-	if ret < 0 {
-		return
+	for i = 0; i < netgapxml.NetGapEthNum; i++ {
+		numstr := strconv.Itoa(i)
+		str := "gap_config_info_eth" + numstr + ".xml"
+		ret = netgapxml.ReadRuleInfoFromFile(&netgapxml.NetGapInnerAllEthInfo[i], str)
+		if ret >= 0 {
+			log.Println(netgapxml.NetGapInnerAllEthInfo[i])
+		}
 	}
-	log.Println(NetGapInnerAllRuleInfo)
+
+	for {
+		time.Sleep(time.Second)
+	}
 
 	return
 }
